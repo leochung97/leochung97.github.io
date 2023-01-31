@@ -1,7 +1,7 @@
 {
   "name": "new-portfolio",
   "version": "0.1.0",
-  "homepage": "https://leochung97.github.io",
+  "homepage": "https://leochung97.github.io/",
   "private": true,
   "dependencies": {
     "@camwiegert/typical": "^0.1.1",
