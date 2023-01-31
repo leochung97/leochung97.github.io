@@ -1,0 +1,47 @@
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: hsl(0, 0%, 5%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  -webkit-animation: fade 1s;
+  -moz-animation: fade 1s;
+  animation: fade 1s;
+  animation-delay: 3s;
+  animation-timing-function: ease-out;
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.loader-header {
+  display: block;
+  margin: 0 8px;
+  font-size: 24px;
+  font-weight: 200;
+  -webkit-animation: fade 0.5s;
+  -moz-animation: fade 0.5s;
+  animation: fade 0.5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+.loader-subheader {
+  display: block;
+  margin: 0 8px;
+  font-size: 24px;
+  font-weight: 100;
+  -webkit-animation: fade 0.5s;
+  -moz-animation: fade 0.5s;
+  animation: fade 0.5s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}

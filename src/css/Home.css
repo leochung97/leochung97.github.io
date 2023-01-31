@@ -1,0 +1,19 @@
+.home-wrapper {
+  display: inline-block;
+  position: absolute;
+  bottom: 4vh;
+  right: 2vw;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  animation: fadein 1s;
+  z-index: 2;
+}
+
+.home-wrapper > div {
+  font-size: 16px;
+  text-align: right;
+  margin: 4px;
+  line-height: 1.5em;
+}

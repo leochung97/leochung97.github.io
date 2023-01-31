@@ -1,0 +1,23 @@
+.info-wrapper {
+  display: inline-block;
+  position: absolute;
+  bottom: 4vh;
+  left: 2vw;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  animation: fadein 1s;
+  z-index: 2;
+}
+
+.info-wrapper > div {
+  font-family: "Neue Montreal-Book";
+  font-size: 14px;
+  line-height: 20px;
+  transition: color 0.3s;
+}
+
+.info-wrapper > div:hover {
+  color: gray;
+}

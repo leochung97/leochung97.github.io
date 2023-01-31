@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("../fonts/PPNeueMontreal-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Neue Montreal-Book";
+  src: url("../fonts/PPNeueMontreal-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Neue Montreal-Medium";
+  src: url("../fonts/PPNeueMontreal-Bold.otf") format("opentype");
+}
+
+body {
+  background-color: hsl(0, 0%, 5%);
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Neue Montreal";
+}
