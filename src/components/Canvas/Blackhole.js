@@ -67,6 +67,16 @@ export default function Blackhole(element) {
 
     stars.push(this);
     this.color = "rgba(255, 255, 255, " + (1 - this.orbital / 255) + ")";
+    // this.color =
+    //   "rgba(" +
+    //   Math.floor(Math.random() * 255) +
+    //   ", " +
+    //   Math.floor(Math.random() * 255) +
+    //   ", " +
+    //   Math.floor(Math.random() * 255) +
+    //   ", " +
+    //   (1 - this.orbital / 255) +
+    //   ")";
     this.hoverPos = centery + maxorbit / 2 + this.collapseBonus;
     this.expansePos =
       centery + (this.id % 100) * -10 + (Math.floor(Math.random() * 20) + 1);
@@ -159,7 +169,7 @@ export default function Blackhole(element) {
     var now = new Date().getTime();
     currentTime = (now - startTime) / 50;
 
-    context.fillStyle = "rgba(0, 0, 0, 0.1)";
+    context.fillStyle = "rgba(13, 13, 13, 0.1)";
     context.fillRect(0, 0, cw, ch);
 
     for (var i = 0; i < stars.length; i++) {
@@ -174,10 +184,10 @@ export default function Blackhole(element) {
   function init() {
     canvas.width = cw;
     canvas.height = ch;
-    context.fillStyle = "rgba(0, 0, 0, 0.1)";
+    context.fillStyle = "rgba(13, 13, 13, 1)";
     context.fillRect(0, 0, cw, ch);
 
-    for (var i = 0; i < 2500; i++) {
+    for (var i = 0; i < 3000; i++) {
       new star();
     }
 
