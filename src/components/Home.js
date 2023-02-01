@@ -1,11 +1,11 @@
 import "../css/Home.css";
 
-function Home(props) {
+function Home() {
   return (
     <div className="home-wrapper">
-      <div>South Korean</div>
+      <div>Ex-Investment Banker</div>
       <div>Full Stack Software Developer</div>
-      <div>Based in Brooklyn, NY</div>
+      <div>Based in New York City</div>
     </div>
   );
 }

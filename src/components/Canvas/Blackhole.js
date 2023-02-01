@@ -5,7 +5,7 @@ export default function Blackhole(element) {
     w = $(element).width(),
     cw = w,
     ch = h,
-    maxorbit = 200, // distance from center
+    maxorbit = Math.max(w, h) / 6, // distance from center
     centery = ch / 2,
     centerx = cw / 2;
 
@@ -25,6 +25,7 @@ export default function Blackhole(element) {
     w = $(element).width();
     cw = w;
     ch = h;
+    maxorbit = Math.max(w, h) / 6;
     canvas.width = cw;
     canvas.height = ch;
     centery = ch / 2;
