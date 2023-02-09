@@ -19,6 +19,8 @@
   line-height: 255px;
   text-align: center;
   transition: all 500ms;
+  user-select: none;
+  -webkit-user-select: none;
 
   &.open {
     opacity: 0;
@@ -38,7 +40,9 @@
 
   span {
     color: #666;
+    content: "Click me!";
     font-family: "Neue Montreal";
+    letter-spacing: 1em;
     font-size: 18px;
     position: relative;
     transition: all 500ms;
@@ -55,7 +59,7 @@
     }
 
     &:after {
-      content: "";
+      display: none;
       display: inline-block;
       height: 1px;
       width: 16px;
@@ -63,7 +67,6 @@
       margin-bottom: 4px;
       background-color: #666;
       transition: all 500ms;
-      display: none;
     }
   }
 }

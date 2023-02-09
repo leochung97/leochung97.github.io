@@ -16,7 +16,7 @@ const Box = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1250);
   }, []);
 
   const [selected, setSelected] = useState("home");
@@ -102,7 +102,7 @@ const Box = () => {
           {/* Canvas Component */}
           <div id="blackhole">
             <div className="centerHover">
-              <span></span>
+              <span>Click Me!</span>
             </div>
             <canvas id="blackhole-canvas" />
           </div>

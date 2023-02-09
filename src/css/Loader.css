@@ -13,7 +13,7 @@
   -webkit-animation: fade 1s;
   -moz-animation: fade 1s;
   animation: fade 1s;
-  animation-delay: 3s;
+  animation-delay: 1s;
   animation-timing-function: ease-out;
   pointer-events: none;
   -webkit-user-select: none;
@@ -28,7 +28,7 @@
   -webkit-animation: fade 0.5s;
   -moz-animation: fade 0.5s;
   animation: fade 0.5s;
-  animation-delay: 2s;
+  animation-delay: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-out;
 }
@@ -41,7 +41,7 @@
   -webkit-animation: fade 0.5s;
   -moz-animation: fade 0.5s;
   animation: fade 0.5s;
-  animation-delay: 2.5s;
+  animation-delay: 0.75s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-out;
 }

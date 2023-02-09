@@ -19,6 +19,8 @@ export default function Blackhole(element) {
   let canvas = document.getElementById("blackhole-canvas");
   let context = canvas.getContext("2d");
   context.globalCompositeOperation = "multiply";
+  context.fillStyle = "rgba(14, 14, 14, 1)";
+  context.fillRect(0, 0, canvas.width, canvas.height);
 
   window.addEventListener("resize", function () {
     h = $(element).height();
@@ -30,6 +32,8 @@ export default function Blackhole(element) {
     canvas.height = ch;
     centery = ch / 2;
     centerx = cw / 2;
+    context.fillStyle = "rgba(14, 14, 14, 1)";
+    context.fillRect(0, 0, canvas.width, canvas.height);
   });
 
   function rotate(cx, cy, x, y, angle) {
@@ -184,7 +188,7 @@ export default function Blackhole(element) {
   function init() {
     canvas.width = cw;
     canvas.height = ch;
-    context.fillStyle = "rgba(13, 13, 13, 1)";
+    context.fillStyle = "rgba(14, 14, 14, 1)";
     context.fillRect(0, 0, cw, ch);
 
     for (var i = 0; i < 3000; i++) {

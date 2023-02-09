@@ -5,7 +5,7 @@ import Blackhole from "./Canvas/Blackhole";
 function App() {
   setTimeout(() => {
     Blackhole("#blackhole");
-  }, 3250);
+  }, 1500);
 
   return (
     <div className="app">
