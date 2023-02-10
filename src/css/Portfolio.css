@@ -34,7 +34,7 @@
 }
 
 .portfolio-list > li > h3 {
-  font-size: max(1.25vw, 1.75vh);
+  font-size: max(1vw, 1.5vh);
   font-family: "Neue Montreal";
   letter-spacing: 1px;
 }
