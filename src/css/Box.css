@@ -44,12 +44,12 @@ a:hover {
 }
 
 .home-header {
-  font-size: max(3vw, 4vh);
+  font-size: max(2.5vw, 3vh);
   display: block;
 }
 
 .home-subheader {
-  font-size: max(1.75vw, 2.5vh);
+  font-size: max(1.5vw, 2vh);
   margin: 4px 0px;
   display: block;
 }
@@ -58,7 +58,7 @@ a:hover {
   display: inline-block;
   vertical-align: center;
   position: absolute;
-  top: min(200px, 12vh);
+  top: min(250px, 14vh);
   left: 2vh;
   z-index: 2;
 }
