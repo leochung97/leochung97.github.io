@@ -4,8 +4,7 @@
   -webkit-animation: fadein 1s;
   -moz-animation: fadein 1s;
   animation: fadein 1s;
-  font-size: 1em;
-  transition: font-size 0.3s, color 0.3s;
+  font-size: max(1.25vw, 1.75vh);
   text-align: center;
   position: absolute;
   left: 0;
@@ -14,13 +13,6 @@
   margin-right: auto;
   width: 100px;
   z-index: 2;
-  /* Temporary blindfold on elements under */
-  background-color: rgba(14, 14, 14, 1);
-}
-
-.contact-wrapper:hover {
-  font-size: 1.1em;
-  color: gray;
 }
 
 .contact-wrapper > a {
@@ -28,8 +20,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+  fill: white;
+  transition: all 0.3s;
 }
 
-.contact-wrapper > a > * {
-  margin: 0.15em;
+.contact-wrapper > a:hover {
+  color: gray;
+  fill: gray;
+}
+
+.contact-wrapper > a > svg {
+  margin: 0.5em;
+  width: 35%;
+  height: 35%;
 }

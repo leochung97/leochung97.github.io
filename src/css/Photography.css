@@ -15,7 +15,4 @@
   -moz-animation: fadein 1s;
   animation: fadein 1s;
   z-index: 2;
-
-  /* Temporary blindfold on elements under */
-  background-color: rgba(14, 14, 14, 1);
 }
