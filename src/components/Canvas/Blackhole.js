@@ -95,7 +95,7 @@ export default function Blackhole(element) {
       if (!collapse) {
         // not hovered
         if (this.y > this.yOrigin) {
-          this.y -= 2.5;
+          this.y -= 2;
         }
         if (this.y < this.yOrigin - 4) {
           this.y += (this.yOrigin - this.y) / 10;
@@ -173,7 +173,7 @@ export default function Blackhole(element) {
     var now = new Date().getTime();
     currentTime = (now - startTime) / 50;
 
-    context.fillStyle = "rgba(13, 13, 13, 0.1)";
+    context.fillStyle = "rgba(14, 14, 14, 0.1)";
     context.fillRect(0, 0, cw, ch);
 
     for (var i = 0; i < stars.length; i++) {

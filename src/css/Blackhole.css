@@ -21,7 +21,7 @@
   transition: all 300ms;
   user-select: none;
   -webkit-user-select: none;
-  animation: blink 2s infinite alternate-reverse;
+  animation: blink 2.5s infinite alternate-reverse;
 }
 
 .centerHover.open {
@@ -48,7 +48,7 @@ canvas {
 
 @keyframes blink {
   0% {
-    color: gray;
+    color: rgba(14, 14, 14, 1);
   }
 
   100% {
@@ -59,7 +59,7 @@ canvas {
 /* Firefox < 16 */
 @-moz-keyframes blink {
   0% {
-    color: gray;
+    color: rgba(14, 14, 14, 1);
   }
 
   100% {
@@ -70,7 +70,7 @@ canvas {
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes blink {
   0% {
-    color: gray;
+    color: rgba(14, 14, 14, 1);
   }
 
   100% {
