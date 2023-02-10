@@ -14,6 +14,8 @@
   margin-right: auto;
   width: 100px;
   z-index: 2;
+  /* Temporary blindfold on elements under */
+  background-color: rgba(14, 14, 14, 1);
 }
 
 .contact-wrapper:hover {
