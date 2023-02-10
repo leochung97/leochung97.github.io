@@ -48,8 +48,9 @@ function Portfolio(props) {
             </a>
           </h2>
           <h3>
-            Full stack clone of Discord built on Ruby on Rails, React, Ruby on
-            Rails, and WebSockets
+            Full stack clone of Discord built on Ruby on Rails, React, and
+            PostgresQL; Integrated WebSocket API allowing for live instant
+            messaging
           </h3>
         </li>
         <li className="typerdrive">
@@ -70,7 +71,10 @@ function Portfolio(props) {
               GitHub ↗
             </a>
           </h2>
-          <h3>Typing-based combat game built with JavaScript, HTML, and CSS</h3>
+          <h3>
+            Typing-based game built with JavaScript, HTML, and CSS; Animations
+            created through JavaScript Canvas
+          </h3>
         </li>
       </ul>
     </div>

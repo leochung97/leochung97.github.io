@@ -36,8 +36,8 @@ a:hover {
   display: inline-block;
   vertical-align: center;
   position: absolute;
-  top: 1.5vw;
-  left: 1.5vh;
+  top: 2vw;
+  left: 2vh;
   -webkit-user-select: none;
   user-select: none;
   z-index: 2;
@@ -59,7 +59,7 @@ a:hover {
   vertical-align: center;
   position: absolute;
   top: min(200px, 12vh);
-  left: 1.5vh;
+  left: 2vh;
   z-index: 2;
 }
 

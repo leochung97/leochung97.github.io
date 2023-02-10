@@ -6,6 +6,7 @@
   left: 0;
   background-color: hsl(0, 0%, 5%);
   color: white;
+  font-size: max(3vw, 4vh);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +24,6 @@
 .loader-header {
   display: block;
   margin: 0 8px;
-  font-size: 24px;
   font-weight: 200;
   -webkit-animation: fade 0.5s;
   -moz-animation: fade 0.5s;
@@ -36,7 +36,6 @@
 .loader-subheader {
   display: block;
   margin: 0 8px;
-  font-size: 24px;
   font-weight: 100;
   -webkit-animation: fade 0.5s;
   -moz-animation: fade 0.5s;

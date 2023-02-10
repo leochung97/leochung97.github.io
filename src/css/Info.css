@@ -1,8 +1,8 @@
 .info-wrapper {
   display: inline-block;
   position: absolute;
-  bottom: 4vh;
-  left: 2vw;
+  bottom: 2vw;
+  left: 2vh;
   -webkit-user-select: none;
   user-select: none;
   -webkit-animation: fadein 1s;
@@ -12,9 +12,8 @@
 }
 
 .info-wrapper > div {
-  font-family: "Neue Montreal-Book";
   font-size: max(1.25vw, 1.75vh);
-  line-height: max(1.75vw, 2.25vh);
+  line-height: max(2vw, 2.5vh);
   transition: color 0.3s;
 }
 

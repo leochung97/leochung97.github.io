@@ -1,7 +1,7 @@
 .portfolio-wrapper {
   text-align: right;
   position: absolute;
-  right: 2vw;
+  right: 2vh;
   -webkit-user-select: none;
   user-select: none;
   -webkit-animation: fadein 1s;
@@ -12,7 +12,7 @@
 }
 
 .portfolio-header {
-  font-size: 1.5em;
+  font-size: max(2.25vw, 2.75vh);
   font-weight: 600;
   margin-bottom: 0.5em;
 }
@@ -22,19 +22,19 @@
 }
 
 .portfolio-list > li > a {
-  font-size: 20px;
+  font-size: max(1.75vw, 2.25vh);
   font-family: "Neue Montreal-Medium";
   letter-spacing: 1px;
 }
 
 .portfolio-list > li > h2 {
-  font-size: 18px;
+  font-size: max(1.5vw, 2vh);
   font-family: "Neue Montreal-Book";
   letter-spacing: 1px;
 }
 
 .portfolio-list > li > h3 {
-  font-size: 16px;
+  font-size: max(1.25vw, 1.75vh);
   font-family: "Neue Montreal";
   letter-spacing: 1px;
 }
