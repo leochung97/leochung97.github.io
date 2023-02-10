@@ -102,7 +102,7 @@ const Box = () => {
           {/* Canvas Component */}
           <div id="blackhole">
             <div className="centerHover">
-              <span>Click Me!</span>
+              <span>Click!</span>
             </div>
             <canvas id="blackhole-canvas" />
           </div>

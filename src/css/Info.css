@@ -13,8 +13,8 @@
 
 .info-wrapper > div {
   font-family: "Neue Montreal-Book";
-  font-size: 14px;
-  line-height: 20px;
+  font-size: max(1.25vw, 1.75vh);
+  line-height: max(1.75vw, 2.25vh);
   transition: color 0.3s;
 }
 
