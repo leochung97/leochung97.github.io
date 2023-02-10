@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b3f78a1.css",
-    "main.js": "/static/js/main.b8f651d2.js",
+    "main.css": "/static/css/main.0b6eae60.css",
+    "main.js": "/static/js/main.f07ab000.js",
     "static/media/PPNeueMontreal-Bold.otf": "/static/media/PPNeueMontreal-Bold.a5585efb70f888db7b5c.otf",
     "static/media/PPNeueMontreal-Book.otf": "/static/media/PPNeueMontreal-Book.497a4d8a79ae3d85403f.otf",
     "static/media/PPNeueMontreal-Thin.otf": "/static/media/PPNeueMontreal-Thin.79ab813ef18c7e673de5.otf",
     "index.html": "/index.html",
-    "main.2b3f78a1.css.map": "/static/css/main.2b3f78a1.css.map",
-    "main.b8f651d2.js.map": "/static/js/main.b8f651d2.js.map"
+    "main.0b6eae60.css.map": "/static/css/main.0b6eae60.css.map",
+    "main.f07ab000.js.map": "/static/js/main.f07ab000.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b3f78a1.css",
-    "static/js/main.b8f651d2.js"
+    "static/css/main.0b6eae60.css",
+    "static/js/main.f07ab000.js"
   ]
 }
