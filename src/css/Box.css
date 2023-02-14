@@ -36,7 +36,7 @@ a:hover {
   display: inline-block;
   vertical-align: center;
   position: absolute;
-  top: 2vw;
+  top: 2vh;
   left: 2vh;
   -webkit-user-select: none;
   user-select: none;

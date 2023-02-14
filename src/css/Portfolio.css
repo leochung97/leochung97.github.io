@@ -7,12 +7,12 @@
   -webkit-animation: fadein 1s;
   -moz-animation: fadein 1s;
   animation: fadein 1s;
-  width: 30%;
+  width: 32.5%;
   z-index: 2;
 }
 
 .portfolio-header {
-  font-size: max(20vw, 2.5vh);
+  font-size: max(1.75vw, 2vh);
   font-weight: 600;
   margin-bottom: 0.5em;
 }
@@ -22,13 +22,13 @@
 }
 
 .portfolio-list > li > a {
-  font-size: max(1.75vw, 2.25vh);
+  font-size: max(1.5vw, 2vh);
   font-family: "Neue Montreal-Medium";
   letter-spacing: 1px;
 }
 
 .portfolio-list > li > h2 {
-  font-size: max(1.5vw, 2vh);
+  font-size: max(1.25vw, 1.75vh);
   font-family: "Neue Montreal-Book";
   letter-spacing: 1px;
 }
