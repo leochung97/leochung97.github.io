@@ -6,13 +6,7 @@ function Portfolio(props) {
       <div className="portfolio-header">PORTFOLIO PROJECTS</div>
       <ul className="portfolio-list">
         <li className="linealert">
-          <a
-            href="https://aa-linealert.onrender.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LINE ALERT ↗
-          </a>
+          <h1>LINE ALERT</h1>
           <h2>
             2022 |{" "}
             <a
@@ -30,13 +24,7 @@ function Portfolio(props) {
           </h3>
         </li>
         <li className="thiscord">
-          <a
-            href="https://thiscord.onrender.com/#/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            THISCORD ↗
-          </a>
+          <h1>THISCORD</h1>
           <h2>
             2022 |{" "}
             <a
@@ -54,13 +42,7 @@ function Portfolio(props) {
           </h3>
         </li>
         <li className="typerdrive">
-          <a
-            href="https://leochung97.github.io/Typer-Drive/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            TYPER DRIVE ↗
-          </a>
+          <h1>TYPER DRIVE</h1>
           <h2>
             2022 |{" "}
             <a

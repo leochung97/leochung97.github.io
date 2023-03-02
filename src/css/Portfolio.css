@@ -27,7 +27,8 @@
   letter-spacing: 1px;
 }
 
-.portfolio-list > li > h2 {
+.portfolio-list > li > h1,
+h2 {
   font-size: max(1.25vw, 1.75vh);
   font-family: "Neue Montreal-Book";
   letter-spacing: 1px;
