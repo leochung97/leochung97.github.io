@@ -71,16 +71,6 @@ export default function Blackhole(element) {
 
     stars.push(this);
     this.color = "rgba(255, 255, 255, " + (1 - this.orbital / 255) + ")";
-    // this.color =
-    //   "rgba(" +
-    //   Math.floor(Math.random() * 255) +
-    //   ", " +
-    //   Math.floor(Math.random() * 255) +
-    //   ", " +
-    //   Math.floor(Math.random() * 255) +
-    //   ", " +
-    //   (1 - this.orbital / 255) +
-    //   ")";
     this.hoverPos = centery + maxorbit / 2 + this.collapseBonus;
     this.expansePos =
       centery + (this.id % 100) * -10 + (Math.floor(Math.random() * 20) + 1);
