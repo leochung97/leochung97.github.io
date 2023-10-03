@@ -12,7 +12,7 @@
 }
 
 .home-wrapper > div {
-  font-size: max(1.25vw, 1.75vh);
+  font-size: 1em;
   line-height: max(1.75vw, 2.25vh);
   margin: 4px 0%;
 }

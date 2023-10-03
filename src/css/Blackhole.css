@@ -35,7 +35,7 @@
 .centerHover > span {
   font-family: "Neue Montreal";
   letter-spacing: 2px;
-  font-size: max(1.25vw, 1.75vh);
+  font-size: 1em;
   position: relative;
 }
 

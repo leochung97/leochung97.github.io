@@ -15,5 +15,5 @@
   -moz-animation: fadein 1s;
   animation: fadein 1s;
   z-index: 2;
-  font-size: max(1.25vw, 1.75vh);
+  font-size: 1em;
 }

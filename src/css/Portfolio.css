@@ -12,8 +12,8 @@
 }
 
 .portfolio-header {
-  font-size: max(1.75vw, 2vh);
-  font-weight: 600;
+  font-size: 1.5em;
+  font-weight: bold;
   margin-bottom: 0.5em;
 }
 
@@ -22,20 +22,20 @@
 }
 
 .portfolio-list > li > a {
-  font-size: max(1.5vw, 2vh);
+  font-size: 1.5em;
   font-family: "Neue Montreal-Medium";
   letter-spacing: 1px;
 }
 
 .portfolio-list > li > h1,
 h2 {
-  font-size: max(1.25vw, 1.75vh);
+  font-size: 1em;
   font-family: "Neue Montreal-Book";
   letter-spacing: 1px;
 }
 
 .portfolio-list > li > h3 {
-  font-size: max(1vw, 1.5vh);
+  font-size: 0.75em;
   font-family: "Neue Montreal";
   letter-spacing: 1px;
 }

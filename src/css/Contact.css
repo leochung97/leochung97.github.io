@@ -4,7 +4,7 @@
   -webkit-animation: fadein 1s;
   -moz-animation: fadein 1s;
   animation: fadein 1s;
-  font-size: max(1.25vw, 1.75vh);
+  font-size: 1em;
   text-align: center;
   position: absolute;
   left: 0;

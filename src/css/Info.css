@@ -12,7 +12,7 @@
 }
 
 .info-wrapper > div {
-  font-size: max(1.25vw, 1.75vh);
+  font-size: 1em;
   line-height: max(2vw, 2.5vh);
   transition: color 0.3s;
 }
