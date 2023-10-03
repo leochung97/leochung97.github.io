@@ -21,11 +21,6 @@ function Info(props) {
           GitHub ↗
         </a>
       </div>
-      <div>
-        <a href="resume.pdf" download="Leo Chung - Resume">
-          Resume ↗
-        </a>
-      </div>
     </div>
   );
 }
