@@ -38,9 +38,9 @@ const Box = () => {
     case "portfolio":
       selectedComponent = <Portfolio selected={selected} />;
       break;
-    case "photography":
-      selectedComponent = <Photography selected={selected} />;
-      break;
+    // case "photography":
+    //   selectedComponent = <Photography selected={selected} />;
+    //   break;
     case "contact":
       selectedComponent = <Contact selected={selected} />;
       break;
@@ -80,13 +80,13 @@ const Box = () => {
                   <a href="#portfolio">Portfolio</a>
                 )}
               </li>
-              <li onClick={() => handleSelect("photography")}>
+              {/* <li onClick={() => handleSelect("photography")}>
                 {selected === "photography" ? (
                   <Dot />
                 ) : (
                   <a href="#photography">Photography</a>
                 )}
-              </li>
+              </li> */}
               <li onClick={() => handleSelect("contact")}>
                 {selected === "contact" ? (
                   <Dot />
