@@ -55,14 +55,14 @@ const Box = () => {
       {loading ? (
         <div className="loader-wrapper">
           <h1 className="loader-header">LEO CHUNG</h1>
-          <h3 className="loader-subheader">DEVELOPER</h3>
+          {/* <h3 className="loader-subheader">DEVELOPER</h3> */}
         </div>
       ) : (
         <div className="box-container">
           {/* Titles */}
           <div className="titles-wrapper">
             <h1 className="home-header">Leo Chung</h1>
-            <h3 className="home-subheader">Developer</h3>
+            {/* <h3 className="home-subheader">Developer</h3> */}
           </div>
           {/* List */}
           <div className="list-container">
@@ -77,7 +77,7 @@ const Box = () => {
                 {selected === "portfolio" ? (
                   <Dot />
                 ) : (
-                  <a href="#portfolio">Portfolio</a>
+                  <a href="#portfolio">Software Projects</a>
                 )}
               </li>
               {/* <li onClick={() => handleSelect("photography")}>

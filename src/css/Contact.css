@@ -9,10 +9,10 @@
   position: absolute;
   left: 0;
   right: 0;
-  margin-left: auto;
-  margin-right: auto;
   width: 100px;
   z-index: 2;
+  bottom: 2vh;
+  left: 2vh;
 }
 
 .contact-wrapper > a {
