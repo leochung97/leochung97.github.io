@@ -8,14 +8,6 @@ function Portfolio(props) {
         GitHub ↗
       </a>
       <ul className="portfolio-list">
-        <li className="tradingbot">
-          <h1>OPTIONS TRADING BOT</h1>
-          <h2>2025 - IN PROGRESS</h2>
-          <h3>
-            Algorithmic trading bot utilizing AI to automatically trade equity
-            options contracts (Python, OpenAI)
-          </h3>
-        </li>
         <li className="resybot">
           <h1>RESYBOT</h1>
           <h2>2023 - 2024</h2>
